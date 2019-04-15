@@ -1,0 +1,115 @@
+/* ===================
+	index.html
+=================== */
+
+#body {
+	background-color: #EAF5EB;
+	background-image: url("../src/images/background-image.jpeg");
+	width: 100%;
+  	height: 900px;
+  	background-position: center; /* css trick to get full background image */
+  	background-size: cover; /* image will be centered no matter how wide the screen is */
+}
+
+
+/* ===================
+	deck-list.js 
+=================== */
+
+#addNewDeck {
+	text-decoration: none;
+}
+.flashcardTitle {
+	color: #FFFFFF;
+}
+
+
+/* ===================
+	deck-detail.js 
+=================== */
+
+.deckDetailPadding{
+	margin-top: 65px;
+	background-color: #FAF3F3;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	height: 500px;
+}
+.addNewCard {
+	float: left;
+}
+.deckTitle {
+	text-align: center;
+	color: #DE1242;
+}
+.questionsHeader {
+	color: #302CB7;
+}
+.studyMode {
+	float: right;
+}
+.appInstructions {
+	margin-top: 150px;
+}
+
+
+/* ===================
+	add-card.js 
+=================== */
+
+.addNewCardTitle {
+	color: #DE1242;
+}
+
+
+/* ===================
+	add-deck.js 
+=================== */
+
+.addNewDeckTitle {
+	color: #DE1242;
+}
+
+
+/* TODO: Refactor css w new flashcard-list.js component */
+
+/* ===================
+	flashcard.js 
+=================== */
+
+.correctBtn {
+	float: right;
+}
+.incorrectBtn {
+	float: left
+}
+.QApadding {
+	padding-bottom: 250px;
+}
+.flipcard {
+	height: 500px;
+	width: 400px;
+}
+.correctIncorrectBtnPadding {
+	padding-top: 200px;
+}
+.scoreHeader {
+	color: #3730F2;
+}
+
+
+/* ===================
+	final-score.js 
+=================== */
+
+.finalScorePadding {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.finalScoreTitle {
+	color: #DE1242;
+}
+.scoreboard-image {
+	height: 300px;
+	width: 350px;
+}
